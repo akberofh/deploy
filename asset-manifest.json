@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/deploy/static/css/main.1032f4ac.css",
+    "main.js": "/deploy/static/js/main.e51d618c.js",
+    "static/js/453.2ad1698f.chunk.js": "/deploy/static/js/453.2ad1698f.chunk.js",
+    "static/media/bn.png": "/deploy/static/media/bn.dba7b185fc338116c291.png",
+    "static/media/pattern.jpeg": "/deploy/static/media/pattern.61381d7742da93178a02.jpeg",
+    "static/media/banner-car.png": "/deploy/static/media/banner-car.71713c7e8e4507fdb7be.png",
+    "static/media/car2.png": "/deploy/static/media/car2.fef4f972303905d34feb.png",
+    "static/media/car.png": "/deploy/static/media/car.027ce53f5c4f70c4a983.png",
+    "static/media/app_store.png": "/deploy/static/media/app_store.8a5164ca9f62a2d5c172.png",
+    "static/media/play_store.png": "/deploy/static/media/play_store.1be3feade6ae12c67801.png",
+    "index.html": "/deploy/index.html",
+    "main.1032f4ac.css.map": "/deploy/static/css/main.1032f4ac.css.map",
+    "main.e51d618c.js.map": "/deploy/static/js/main.e51d618c.js.map",
+    "453.2ad1698f.chunk.js.map": "/deploy/static/js/453.2ad1698f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1032f4ac.css",
+    "static/js/main.e51d618c.js"
+  ]
+}
