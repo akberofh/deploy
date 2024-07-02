@@ -1,0 +1,126 @@
+// dtlbmw.module.scss
+
+.detailContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.productDetails {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 80%;
+}
+
+.image {
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 20px;
+    color: #e63946;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.category {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+    svg {
+        color: #ffd700;
+        margin-right: 5px;
+    }
+}
+
+.btns {
+    display: flex;
+    gap: 10px;
+
+    button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+
+        &:first-child {
+            background-color: #4caf50;
+            color: #fff;
+
+            &:hover {
+                background-color: #45a049;
+            }
+        }
+
+        &:last-child {
+            background-color: #008cba;
+            color: #fff;
+
+            &:hover {
+                background-color: #007bb5;
+            }
+        }
+    }
+}
+
+.otherProducts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+
+    h1 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+.loading, .error {
+    font-size: 18px;
+    color: #e63946;
+    margin-top: 20px;
+}
